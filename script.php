@@ -153,7 +153,7 @@ foreach($data as $key => $value){
 
 	echo 'opening file <br>';
 
-	//pegar arquivo
+	//get file content
 	$content = file_get_contents($file);
 
 	echo 'replacing - (' . $value[0] . ')<br>';
